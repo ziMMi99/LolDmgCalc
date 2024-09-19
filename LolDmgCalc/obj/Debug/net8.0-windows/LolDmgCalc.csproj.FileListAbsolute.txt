@@ -1,0 +1,17 @@
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\bin\Debug\net8.0-windows\LolDmgCalc.exe
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\bin\Debug\net8.0-windows\LolDmgCalc.deps.json
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\bin\Debug\net8.0-windows\LolDmgCalc.runtimeconfig.json
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\bin\Debug\net8.0-windows\LolDmgCalc.dll
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\bin\Debug\net8.0-windows\LolDmgCalc.pdb
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.Form1.resources
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.csproj.GenerateResource.cache
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.AssemblyInfoInputs.cache
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.AssemblyInfo.cs
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.csproj.CoreCompileInputs.cache
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.sourcelink.json
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.dll
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\refint\LolDmgCalc.dll
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.pdb
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\LolDmgCalc.genruntimeconfig.cache
+C:\Users\simon\OneDrive\Skrivebord\Java - Skole\c#\LolDmgCalc\LolDmgCalc\obj\Debug\net8.0-windows\ref\LolDmgCalc.dll

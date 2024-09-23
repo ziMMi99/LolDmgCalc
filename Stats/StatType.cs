@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Items {
-	internal enum StatType {
+	public enum StatType {
 		Health,
 		Mana,
 		AttackDamage,

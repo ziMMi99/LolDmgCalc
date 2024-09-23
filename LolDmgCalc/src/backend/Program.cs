@@ -1,7 +1,8 @@
-using Items.StarterItems;
-namespace LolDmgCalc;
+using Items.ItemExplorer.StarterItems;
+namespace LolDmgCalc.src;
 
-static class Program {
+static class Program
+{
     /// <summary>
     ///  The main entry point for the application.
     /// </summary>

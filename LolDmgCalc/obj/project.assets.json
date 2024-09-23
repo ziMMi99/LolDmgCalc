@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
+      "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
       "projectName": "LolDmgCalc",
-      "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
+      "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
       "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\obj\\",
+      "outputPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\Items.csproj": {
-              "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\Items.csproj"
+            "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Items.csproj": {
+              "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Items.csproj"
             }
           }
         }

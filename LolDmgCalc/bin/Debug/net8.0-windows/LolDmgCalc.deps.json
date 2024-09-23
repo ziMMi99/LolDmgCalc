@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "LolDmgCalc/1.0.0": {
+        "dependencies": {
+          "Items": "1.0.0"
+        },
         "runtime": {
           "LolDmgCalc.dll": {}
+        }
+      },
+      "Items/1.0.0": {
+        "runtime": {
+          "Items.dll": {}
         }
       }
     }
   },
   "libraries": {
     "LolDmgCalc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Items/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

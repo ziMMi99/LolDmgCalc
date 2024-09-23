@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\",
+  "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\loldmgcalc\\src\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\src\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\items\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\items\\itemexplorer\\starteritems\\dorans_shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\starteritems\\dorans_shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\items\\itemexplorer\\starteritems\\dorans_ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\starteritems\\dorans_ring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\items\\itemexplorer\\starteritems\\dorans_blade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\starteritems\\dorans_blade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\loldmgcalc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\loldmgcalc\\loldmgcalc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\loldmgcalc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\simon\\onedrive\\skrivebord\\java - skole\\c#\\loldmgcalc\\loldmgcalc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,46 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatType.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\StatType.cs",
-              "RelativeDocumentMoniker": "Items\\StatType.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\StatType.cs",
-              "RelativeToolTip": "Items\\StatType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs",
+              "RelativeDocumentMoniker": "LolDmgCalc\\src\\frontend\\Form1.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs [Design]",
+              "RelativeToolTip": "LolDmgCalc\\src\\frontend\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:46:02.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\Item.cs",
-              "RelativeDocumentMoniker": "Items\\Item.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\Item.cs",
-              "RelativeToolTip": "Items\\Item.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:42:23.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LolDmgCalc",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
-              "RelativeDocumentMoniker": "LolDmgCalc\\LolDmgCalc.csproj",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
-              "RelativeToolTip": "LolDmgCalc\\LolDmgCalc.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-19T11:40:32.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T10:53:24.582Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -89,71 +42,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dorans_ring.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\Dorans_ring.cs",
-              "RelativeDocumentMoniker": "Items\\ItemExplorer\\StarterItems\\Dorans_ring.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\Dorans_ring.cs*",
-              "RelativeToolTip": "Items\\ItemExplorer\\StarterItems\\Dorans_ring.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs",
+              "RelativeDocumentMoniker": "LolDmgCalc\\src\\frontend\\Form1.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs",
+              "RelativeToolTip": "LolDmgCalc\\src\\frontend\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:39:19.079Z",
+              "WhenOpened": "2024-09-23T10:57:24.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dorans_shield.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\Dorans_shield.cs",
-              "RelativeDocumentMoniker": "Items\\ItemExplorer\\StarterItems\\Dorans_shield.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\Dorans_shield.cs*",
-              "RelativeToolTip": "Items\\ItemExplorer\\StarterItems\\Dorans_shield.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:39:10.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dorans_blade.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\Dorans_blade.cs",
-              "RelativeDocumentMoniker": "Items\\ItemExplorer\\StarterItems\\Dorans_blade.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\Dorans_blade.cs*",
-              "RelativeToolTip": "Items\\ItemExplorer\\StarterItems\\Dorans_blade.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:37:33.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\Program.cs",
-              "RelativeDocumentMoniker": "LolDmgCalc\\Program.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\Program.cs",
-              "RelativeToolTip": "LolDmgCalc\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "LolDmgCalc\\src\\backend\\Program.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\backend\\Program.cs",
+              "RelativeToolTip": "LolDmgCalc\\src\\backend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:17:56.2Z",
+              "WhenOpened": "2024-09-23T10:48:01.237Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\Form1.cs",
-              "RelativeDocumentMoniker": "LolDmgCalc\\Form1.cs",
-              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\Java - Skole\\c#\\LolDmgCalc\\LolDmgCalc\\Form1.cs [Design]",
-              "RelativeToolTip": "LolDmgCalc\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T11:17:41.297Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

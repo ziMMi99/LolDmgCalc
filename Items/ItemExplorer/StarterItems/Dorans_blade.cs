@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Items.ItemExplorer.StarterItems
 {
-    internal class Dorans_blade
-    {
+    public class Dorans_blade {
     }
 }

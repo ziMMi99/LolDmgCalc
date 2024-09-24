@@ -21,7 +21,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Champions\" />
+    <Folder Include="Champions\Controller\Catcher\" />
+    <Folder Include="Champions\Controller\Enchanter\" />
+    <Folder Include="Champions\Fighter\Diver\" />
+    <Folder Include="Champions\Fighter\Juggernaut\" />
+    <Folder Include="Champions\Mage\Battlemage\" />
+    <Folder Include="Champions\Mage\Burst\" />
+    <Folder Include="Champions\Mage\Artillery\" />
+    <Folder Include="Champions\Marksman\" />
+    <Folder Include="Champions\Slayer\Skirmisher\" />
+    <Folder Include="Champions\Slayer\Assassin\" />
+    <Folder Include="Champions\Tank\Warden\" />
+    <Folder Include="Champions\Tank\Vanguard\" />
   </ItemGroup>
 
 </Project>

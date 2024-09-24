@@ -2,13 +2,15 @@
 
 namespace Champions {
     public interface IChampion {
-        
-        public void W();
-
-        public void E();
-
-        public void R();
-
         public void AutoAttack();
+
+        public void CastQ();
+
+        public void CastW();
+
+        public void CastE();
+
+        public void CastR();
+
     }
 }

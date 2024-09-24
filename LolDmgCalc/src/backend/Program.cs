@@ -12,6 +12,6 @@ static class Program
         // see https://aka.ms/applicationconfiguration.
         ApplicationConfiguration.Initialize();
         Application.Run(new Form1());
-        Dorans_blade db = new Dorans_blade();
+        DoransBlade db = new DoransBlade();
     }
 }

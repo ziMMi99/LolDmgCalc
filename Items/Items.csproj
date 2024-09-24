@@ -12,4 +12,8 @@
     <Folder Include="ItemExplorer\LegendaryItems\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Stats\Stats.csproj" />
+  </ItemGroup>
+
 </Project>

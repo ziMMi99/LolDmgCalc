@@ -16,4 +16,12 @@
     <None Remove="IChampion" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Stats\Stats.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Champions\" />
+  </ItemGroup>
+
 </Project>

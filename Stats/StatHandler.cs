@@ -1,7 +1,7 @@
 ﻿using Items;
 
 namespace Stats {
-    public class Stats {
+    public class StatHandler {
         //A dictionary is an array 'keys' which have a 'value',
         //in this case the 'keys' are the statTypes, which then have a double as their value
         private Dictionary<StatType, double> stats = new Dictionary<StatType, double>();
@@ -10,7 +10,7 @@ namespace Stats {
         /// <summary>
         /// Default Constructor. Clears stats
         /// </summary>
-        public Stats() {
+        public StatHandler() {
             //Loops through every key in the stats dictionary
             foreach (var key in stats.Keys) {
                 //Sets the value at every key to 0.0
@@ -22,7 +22,7 @@ namespace Stats {
         /// Constructor that takes a dictionary(hashmap) of the stats.
         /// </summary>
         /// <param name="stats"></param>
-        public Stats(Dictionary<StatType, double> stats) {
+        public StatHandler(Dictionary<StatType, double> stats) {
             this.stats = stats;
         }
 
@@ -30,7 +30,7 @@ namespace Stats {
         /// Copy Constructor.
         /// </summary>
         /// <param name="stats"></param>
-        public Stats(Stats stats) {
+        public StatHandler(StatHandler stats) {
             this.stats = stats.stats;
         }
 
@@ -52,8 +52,8 @@ namespace Stats {
 
         //------------Operators------------------- currently +-*/
 
-        public static Stats operator +(Stats a, Stats b) {
-            Stats addedStats = new Stats();
+        public static StatHandler operator +(StatHandler a, StatHandler b) {
+            StatHandler addedStats = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {
@@ -64,8 +64,8 @@ namespace Stats {
             return addedStats;
         }
 
-        public static Stats operator -(Stats a, Stats b) {
-            Stats subtractedStats = new Stats();
+        public static StatHandler operator -(StatHandler a, StatHandler b) {
+            StatHandler subtractedStats = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {
@@ -76,8 +76,8 @@ namespace Stats {
             return subtractedStats;
         }
 
-        public static Stats operator *(Stats a, Stats b) {
-            Stats multipliedStats = new Stats();
+        public static StatHandler operator *(StatHandler a, StatHandler b) {
+            StatHandler multipliedStats = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {
@@ -88,8 +88,8 @@ namespace Stats {
             return multipliedStats;
         }
 
-        public static Stats operator /(Stats a, Stats b) {
-            Stats dividedStats = new Stats();
+        public static StatHandler operator /(StatHandler a, StatHandler b) {
+            StatHandler dividedStats = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Stats/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Stats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stats.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Stats/1.0.0": {
+      "type": "project",
+      "path": "../Stats/Stats.csproj",
+      "msbuildProject": "../Stats/Stats.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Stats >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\CraZi\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj": {
+              "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

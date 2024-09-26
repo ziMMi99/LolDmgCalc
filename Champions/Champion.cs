@@ -13,21 +13,21 @@ namespace Champions {
 
         //-----------Methods-------------
 
-        public virtual void AutoAttack() {
+        public virtual Damage AutoAttack() {
             throw new NotImplementedException();
         }
-        public void CastQ() {
+        public virtual Damage CastQ() {
             throw new NotImplementedException();
         }
-        public void CastW() {
-            throw new NotImplementedException();
-        }
-
-        public void CastE() {
+        public virtual Damage CastW() {
             throw new NotImplementedException();
         }
 
-        public void CastR() {
+        public virtual Damage CastE() {
+            throw new NotImplementedException();
+        }
+
+        public virtual Damage CastR() {
             throw new NotImplementedException();
         }
 
@@ -35,8 +35,8 @@ namespace Champions {
 
 
         //----------Getters&Setters---------------
-        public double GetStat(StatType type) {
-            switch (type) {
+        public double GetStat(StatType statType) {
+            switch (statType) {
                 case StatType.Health:
                 return stats.Get(StatType.Health) + (stats.Get(StatType.HealthPerLevel) * level);
 
@@ -92,7 +92,7 @@ namespace Champions {
                 return stats.Get(StatType.SpellVamp) + (stats.Get(StatType.SpellVampPerLevel) * level);
 
                 default:
-                return stats.Get(type);
+                return stats.Get(statType);
             }
         }
 

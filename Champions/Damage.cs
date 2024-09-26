@@ -1,12 +1,11 @@
-﻿using Champions;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LolDmgCalc {
-    internal class Damage {
+namespace Champions {
+    public class Damage {
 
         /*
          * Usikker på om damage må være negativt eller ej, da det matematisk er praktisk,
@@ -51,8 +50,8 @@ namespace LolDmgCalc {
         //-------------Operators(+-*/)---------------
 
         public static Damage operator +(Damage a, Damage b) {
-            return new Damage(a.trueDmg + b.trueDmg, 
-                              a.magicDmg + b.magicDmg, 
+            return new Damage(a.trueDmg + b.trueDmg,
+                              a.magicDmg + b.magicDmg,
                               a.physicalDamage + b.physicalDamage);
         }
 

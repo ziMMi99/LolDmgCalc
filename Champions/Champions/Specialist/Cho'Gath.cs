@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Champions.Champions.Specialist {
     internal class Cho_Gath : Champion {
         
-        //todo: noget med range både value'en og om de tæller som melee eller ranged
+        
 
         public Cho_Gath() {
             level = 18;
@@ -35,11 +35,8 @@ namespace Champions.Champions.Specialist {
         }
 
 
-        public override void AutoAttack() {
-            Console.WriteLine("monke");
-            int te = 1;
-            Console.WriteLine(te);
-            
+        public override Damage AutoAttack() {
+            throw new NotImplementedException();
         }
         public void CastQ() {
             throw new NotImplementedException();

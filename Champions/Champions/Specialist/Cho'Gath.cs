@@ -1,5 +1,4 @@
-﻿using Items;
-using Stats;
+﻿using Stats;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +7,14 @@ using System.Threading.Tasks;
 
 namespace Champions.Champions.Specialist {
     internal class Cho_Gath : Champion {
+        private int rStacks;
         
-        
+        //----------Constructors----------
+        public Cho_Gath() : this(18, 0) { }
 
-        public Cho_Gath() {
-            level = 18;
+        public Cho_Gath(int level, int rStacks) {
+            this.level = level; 
+            this.rStacks = rStacks;
             stats = new StatHandler(new Dictionary<StatType, double>() {
                 {StatType.Health, 644},
                 {StatType.Mana, 270},
@@ -34,22 +36,22 @@ namespace Champions.Champions.Specialist {
             });
         }
 
-
+        //--------------Abilities---------------
         public override Damage AutoAttack() {
             throw new NotImplementedException();
         }
-        public void CastQ() {
+        public override Damage CastQ() {
             throw new NotImplementedException();
         }
-        public void CastW() {
-            throw new NotImplementedException();
-        }
-
-        public void CastE() {
+        public override Damage CastW() {
             throw new NotImplementedException();
         }
 
-        public void CastR() {
+        public override Damage CastE() {
+            throw new NotImplementedException();
+        }
+
+        public override Damage CastR() {
             throw new NotImplementedException();
         }
     }

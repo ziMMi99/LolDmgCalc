@@ -1,13 +1,11 @@
-﻿
-
-using Items;
-using Stats;
+﻿using Stats;
 
 namespace Champions {
     public abstract class Champion {
 
         //----------Variables-----------
         internal int level;
+        internal int qLevel, wLevel, eLevel, rLevel;
         internal StatHandler stats;
 
 
@@ -35,7 +33,7 @@ namespace Champions {
 
 
         //----------Getters&Setters---------------
-        public double GetStat(StatType statType) {
+        public virtual double GetStat(StatType statType) {
             switch (statType) {
                 case StatType.Health:
                 return stats.Get(StatType.Health) + (stats.Get(StatType.HealthPerLevel) * level);

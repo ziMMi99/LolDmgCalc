@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ChampionPassives\Controller\Catcher\" />
+    <Folder Include="ChampionPassives\Controller\Enchanter\" />
+    <Folder Include="ChampionPassives\Fighter\Diver\" />
+    <Folder Include="ChampionPassives\Fighter\Juggernaut\" />
+    <Folder Include="ChampionPassives\Mage\Artillery\" />
+    <Folder Include="ChampionPassives\Mage\Battlemage\" />
+    <Folder Include="ChampionPassives\Mage\Burst\" />
+    <Folder Include="ChampionPassives\Marksman\" />
+    <Folder Include="ChampionPassives\Slayer\Assassin\" />
+    <Folder Include="ChampionPassives\Slayer\Skirmisher\" />
+    <Folder Include="ChampionPassives\Specialist\" />
+    <Folder Include="ChampionPassives\Tank\Vanguard\" />
+    <Folder Include="ChampionPassives\Tank\Warden\" />
+    <Folder Include="ItemPassives\" />
+  </ItemGroup>
+
+</Project>

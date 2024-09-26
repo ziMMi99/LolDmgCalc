@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LolDmgCalc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+355e87927702c42c46432e9e7a92aa98269147da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25435d85d94fbbce55b017df73da21c807ac1cee")]
 [assembly: System.Reflection.AssemblyProductAttribute("LolDmgCalc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LolDmgCalc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

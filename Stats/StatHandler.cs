@@ -53,51 +53,51 @@ namespace Stats {
         //------------Operators------------------- currently +-*/
 
         public static StatHandler operator +(StatHandler a, StatHandler b) {
-            StatHandler addedStats = new StatHandler();
+            StatHandler result = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {
                 //Adds the two parameter's values for each key
-                addedStats.stats[key] = a.stats[key] + b.stats[key];
+                result.stats[key] = a.stats[key] + b.stats[key];
             }
 
-            return addedStats;
+            return result;
         }
 
         public static StatHandler operator -(StatHandler a, StatHandler b) {
-            StatHandler subtractedStats = new StatHandler();
+            StatHandler result = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {
                 //Subtracts the two parameter's values for each key
-                subtractedStats.stats[key] = a.stats[key] - b.stats[key];
+                result.stats[key] = a.stats[key] - b.stats[key];
             }
 
-            return subtractedStats;
+            return result;
         }
 
         public static StatHandler operator *(StatHandler a, StatHandler b) {
-            StatHandler multipliedStats = new StatHandler();
+            StatHandler result = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {
                 //Multiplies the two parameter's values for each key
-                multipliedStats.stats[key] = a.stats[key] * b.stats[key];
+                result.stats[key] = a.stats[key] * b.stats[key];
             }
 
-            return multipliedStats;
+            return result;
         }
 
         public static StatHandler operator /(StatHandler a, StatHandler b) {
-            StatHandler dividedStats = new StatHandler();
+            StatHandler result = new StatHandler();
 
             //Loops through every key in the stats dictionary
             foreach (var key in a.stats.Keys) {
                 //Divides the two parameter's values for each key
-                dividedStats.stats[key] = a.stats[key] / b.stats[key];
+                result.stats[key] = a.stats[key] / b.stats[key];
             }
 
-            return dividedStats;
+            return result;
         }
     }
 }

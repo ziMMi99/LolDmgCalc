@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\champions\\specialist\\cho\u0027gath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\stats\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|solutionrelative:stats\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\passives\\passivetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\passives\\passive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|solutionrelative:passives\\passive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\stats\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|solutionrelative:stats\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\stats\\stathandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Passive.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\Passive.cs",
               "RelativeDocumentMoniker": "Passives\\Passive.cs",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "Passives\\Passive.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T11:50:05.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T11:50:05.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PassiveType.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\PassiveType.cs",
               "RelativeDocumentMoniker": "Passives\\PassiveType.cs",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "Passives\\PassiveType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T11:14:40.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T11:14:40.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Damage.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Damage.cs",
               "RelativeDocumentMoniker": "Champions\\Damage.cs",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Champions\\Damage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T10:55:21.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T10:55:21.115Z"
             },
             {
               "$type": "Document",
@@ -107,20 +104,20 @@
               "RelativeDocumentMoniker": "Champions\\Champions\\Specialist\\Cho\u0027Gath.cs",
               "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions\\Specialist\\Cho\u0027Gath.cs",
               "RelativeToolTip": "Champions\\Champions\\Specialist\\Cho\u0027Gath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwFsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T08:24:53.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Champion.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champion.cs",
               "RelativeDocumentMoniker": "Champions\\Champion.cs",
               "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champion.cs",
               "RelativeToolTip": "Champions\\Champion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwH8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T08:06:18.301Z",
               "EditorCaption": ""
@@ -139,16 +136,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "StatType.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\StatType.cs",
               "RelativeDocumentMoniker": "Stats\\StatType.cs",
               "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\StatType.cs",
               "RelativeToolTip": "Stats\\StatType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T11:46:33.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T11:46:33.729Z"
             },
             {
               "$type": "Document",

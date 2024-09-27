@@ -1,4 +1,5 @@
 ﻿using Stats;
+using System.Runtime.InteropServices.Marshalling;
 
 namespace Champions {
     public abstract class Champion {
@@ -6,7 +7,8 @@ namespace Champions {
         //----------Variables-----------
         internal int level;
         internal int qLevel, wLevel, eLevel, rLevel;
-        internal StatHandler stats;
+        internal StatHandler baseStats;
+        internal StatHandler statPerLevel;
 
 
         //-----------Methods-------------
@@ -14,10 +16,23 @@ namespace Champions {
         public virtual Damage AutoAttack() {
             throw new NotImplementedException();
         }
+        public virtual Damage AutoAttack(Champion target) {
+            throw new NotImplementedException();
+        }
+
         public virtual Damage CastQ() {
             throw new NotImplementedException();
         }
+
+        public virtual Damage CastQ(Champion target) {
+            throw new NotImplementedException();
+        }
+
         public virtual Damage CastW() {
+            throw new NotImplementedException();
+        }
+
+        public virtual Damage CastW(Champion target) {
             throw new NotImplementedException();
         }
 
@@ -25,77 +40,92 @@ namespace Champions {
             throw new NotImplementedException();
         }
 
+        public virtual Damage CastE(Champion target) {
+            throw new NotImplementedException();
+        }
+
         public virtual Damage CastR() {
             throw new NotImplementedException();
         }
 
-
+        public virtual Damage CastR(Champion target) {
+            throw new NotImplementedException();
+        }
 
 
         //----------Getters&Setters---------------
         public virtual double GetStat(StatType statType) {
             switch (statType) {
                 case StatType.Health:
-                return stats.Get(StatType.Health) + (stats.Get(StatType.HealthPerLevel) * level);
+                return baseStats.Get(StatType.Health) + (statPerLevel.Get(StatType.Health) * level);
 
                 case StatType.Mana:
-                return stats.Get(StatType.Mana) + (stats.Get(StatType.ManaPerLevel) * level);
+                return baseStats.Get(StatType.Mana) + (statPerLevel.Get(StatType.Mana) * level);
 
                 case StatType.AttackDamage:
-                return stats.Get(StatType.AttackDamage) + (stats.Get(StatType.AttackDamagePerLevel) * level);
+                return baseStats.Get(StatType.AttackDamage) + (statPerLevel.Get(StatType.AttackDamage) * level);
 
                 case StatType.AbilityPower:
-                return stats.Get(StatType.AbilityPower) + (stats.Get(StatType.AbilityPowerPerLevel) * level);
+                return baseStats.Get(StatType.AbilityPower) + (statPerLevel.Get(StatType.AbilityPower) * level);
 
                 case StatType.Armor:
-                return stats.Get(StatType.Armor) + (stats.Get(StatType.ArmorPerLevel) * level);
+                return baseStats.Get(StatType.Armor) + (statPerLevel.Get(StatType.Armor) * level);
 
                 case StatType.MagicResistance:
-                return stats.Get(StatType.MagicResistance) + (stats.Get(StatType.MagicResistancePerLevel) * level);
+                return baseStats.Get(StatType.MagicResistance) + (statPerLevel.Get(StatType.MagicResistance) * level);
 
                 case StatType.AttackSpeed: //Todo: lav beregningen rigtigt
-                return stats.Get(StatType.AttackSpeed) + (stats.Get(StatType.AttackSpeedPerLevel) * level);
+                return baseStats.Get(StatType.AttackSpeed) + (statPerLevel.Get(StatType.AttackSpeed) * level);
 
                 case StatType.CriticalStrikeChance:
-                return stats.Get(StatType.CriticalStrikeChance) + (stats.Get(StatType.CriticalStrikeChancePerLevel) * level);
+                return baseStats.Get(StatType.CriticalStrikeChance) + (statPerLevel.Get(StatType.CriticalStrikeChance) * level);
 
                 case StatType.LifeSteal:
-                return stats.Get(StatType.LifeSteal) + (stats.Get(StatType.LifeStealPerLevel) * level);
+                return baseStats.Get(StatType.LifeSteal) + (statPerLevel.Get(StatType.LifeSteal) * level);
 
                 case StatType.MovementSpeed:
-                return stats.Get(StatType.MovementSpeed) + (stats.Get(StatType.MovementSpeedPerLevel) * level);
+                return baseStats.Get(StatType.MovementSpeed) + (statPerLevel.Get(StatType.MovementSpeed) * level);
 
                 case StatType.CooldownReduction:
-                return stats.Get(StatType.CooldownReduction) + (stats.Get(StatType.CooldownReductionPerLevel) * level);
+                return baseStats.Get(StatType.CooldownReduction) + (statPerLevel.Get(StatType.CooldownReduction) * level);
 
                 case StatType.ManaRegeneration:
-                return stats.Get(StatType.ManaRegeneration) + (stats.Get(StatType.ManaRegenerationPerLevel) * level);
+                return baseStats.Get(StatType.ManaRegeneration) + (statPerLevel.Get(StatType.ManaRegeneration) * level);
 
                 case StatType.HealthRegeneration:
-                return stats.Get(StatType.HealthRegeneration) + (stats.Get(StatType.HealthRegenerationPerLevel) * level);
+                return baseStats.Get(StatType.HealthRegeneration) + (statPerLevel.Get(StatType.HealthRegeneration) * level);
 
                 case StatType.Tenacity:
-                return stats.Get(StatType.Tenacity) + (stats.Get(StatType.TenacityPerLevel) * level);
+                return baseStats.Get(StatType.Tenacity) + (statPerLevel.Get(StatType.Tenacity) * level);
 
                 case StatType.SlowResistance:
-                return stats.Get(StatType.SlowResistance) + (stats.Get(StatType.SlowResistancePerLevel) * level);
+                return baseStats.Get(StatType.SlowResistance) + (statPerLevel.Get(StatType.SlowResistance) * level);
 
                 case StatType.ArmorPenetration:
-                return stats.Get(StatType.ArmorPenetration) + (stats.Get(StatType.ArmorPenetrationPerLevel) * level);
+                return baseStats.Get(StatType.ArmorPenetration) + (statPerLevel.Get(StatType.ArmorPenetration) * level);
 
                 case StatType.MagicPenetration:
-                return stats.Get(StatType.MagicPenetration) + (stats.Get(StatType.MagicPenetrationPerLevel) * level);
+                return baseStats.Get(StatType.MagicPenetration) + (statPerLevel.Get(StatType.MagicPenetration) * level);
 
                 case StatType.SpellVamp:
-                return stats.Get(StatType.SpellVamp) + (stats.Get(StatType.SpellVampPerLevel) * level);
+                return baseStats.Get(StatType.SpellVamp) + (statPerLevel.Get(StatType.SpellVamp) * level);
 
                 default:
-                return stats.Get(statType);
+                return baseStats.Get(statType);
             }
         }
 
         public void SetStat(StatType type, double value) {
-            stats.Set(type, value);
+            baseStats.Set(type, value);
+        }
+
+        protected virtual void Test() {
+            throw new NotImplementedException();
+        }
+
+        //--------------UtilityMethods-------------------
+        protected virtual void LevelAbilities(int level) {
+            throw new NotImplementedException();
         }
 
     }

@@ -19,7 +19,19 @@ namespace Champions {
             throw new NotImplementedException();
         }
         public virtual Damage AutoAttack(Champion target) {
-            throw new NotImplementedException();
+            Damage dmg = new Damage();
+            //-----Calc dmg-----
+            //AD + (AD * critDmg * critchance)
+            dmg.SetDmg(DamageType.PhysicalDmg, GetStat(StatType.AttackDamage) + (GetStat(StatType.AttackDamage) * GetStat(StatType.CriticalStrikeDmg) * GetStat(StatType.CriticalStrikeChance)));
+			//-----Subtract dmg based on resistances------
+			/*                               raw dmg
+             *  post mitigated dmg =  ----------------------
+             *                          1 + resistance/100
+             */
+			dmg.SetDmg(DamageType.PhysicalDmg, dmg.GetDmg(DamageType.PhysicalDmg)/(1 + target.GetStat(StatType.Armor)/100));
+
+
+            return dmg;
         }
 
         public virtual Damage CastQ() {
@@ -147,26 +159,10 @@ namespace Champions {
         /// </summary>
         protected virtual void SetBaseStats() {
 			baseStats = new StatHandler(new Dictionary<StatType, double>() {
-				{StatType.Health, 0},
-				{StatType.Mana, 0},
-				{StatType.AttackDamage, 0},
-				{StatType.Armor, 0},
-				{StatType.MagicResistance, 0},
-				{StatType.AttackSpeed, 0},
-				{StatType.MovementSpeed, 0},
-				{StatType.ManaRegeneration, 0},
-				{StatType.HealthRegeneration, 0}
+				{StatType.CriticalStrikeDmg, 1.75}
 			});
 			statPerLevel = new StatHandler(new Dictionary<StatType, double>() {
-				{StatType.Health, 0},
-				{StatType.Mana, 0},
-				{StatType.AttackDamage, 0},
-				{StatType.Armor, 0},
-				{StatType.MagicResistance, 0},
-				{StatType.AttackSpeed, 0},
-				{StatType.MovementSpeed, 0},
-				{StatType.ManaRegeneration, 0},
-				{StatType.HealthRegeneration, 0}
+				
 			});
 		}
 	}

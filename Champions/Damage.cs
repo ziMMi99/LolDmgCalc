@@ -14,16 +14,12 @@ namespace Champions {
          * men at holde sig ops på det problem når man arbejder med det.
          */
 
-        private double trueDmg { get => trueDmg; set => trueDmg = value; }
-        private double magicDmg { get => magicDmg; set => magicDmg = value; }
-        private double physicalDamage { get => physicalDamage; set => physicalDamage = value; }
+        private double trueDmg;
+        private double magicDmg;
+        private double physicalDamage;
 
         //----------Constructors-----------
-        public Damage() {
-            trueDmg = 0;
-            magicDmg = 0;
-            physicalDamage = 0;
-        }
+        public Damage() : this(0, 0, 0) { }
 
         public Damage(Damage damage) {
             this.trueDmg = damage.trueDmg;
@@ -47,9 +43,50 @@ namespace Champions {
             throw new NotImplementedException();
         }
 
-        //-------------Operators(+-*/)---------------
+        //--------------Getters&Setters---------------
+        public double GetDmg(DamageType damageType) {
+			switch (damageType) {
+				case DamageType.TrueDmg:
+				return trueDmg;
+				case DamageType.MagicDmg:
+				return magicDmg;
+				case DamageType.PhysicalDmg:
+				return physicalDamage;
+                default:
+                return 0;
+			}
+		}
+		public void AddDmg(DamageType damageType, double dmg) {
+			switch (damageType) {
+				case DamageType.TrueDmg:
+				trueDmg += dmg;
+				break;
+				case DamageType.MagicDmg:
+				magicDmg += dmg;
+				break;
+				case DamageType.PhysicalDmg:
+				physicalDamage += dmg;
+				break;
+			}
+		}
 
-        public static Damage operator +(Damage a, Damage b) {
+		public void SetDmg(DamageType damageType, double dmg) {
+			switch (damageType) {
+				case DamageType.TrueDmg:
+				trueDmg = dmg;
+				break;
+				case DamageType.MagicDmg:
+				magicDmg = dmg;
+				break;
+				case DamageType.PhysicalDmg:
+                physicalDamage = dmg;
+                break;
+			}
+		}
+
+		//-------------Operators(+-*/)---------------
+
+		public static Damage operator +(Damage a, Damage b) {
             return new Damage(a.trueDmg + b.trueDmg,
                               a.magicDmg + b.magicDmg,
                               a.physicalDamage + b.physicalDamage);
@@ -73,5 +110,5 @@ namespace Champions {
                               a.physicalDamage / b.physicalDamage);
         }
 
-    }
+	}
 }

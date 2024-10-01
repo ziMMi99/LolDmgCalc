@@ -9,7 +9,13 @@ namespace Champions {
         //----------Variables-----------
         internal int level;
         internal int qRank, wRank, eRank, rRank;
-        internal StatHandler baseStats;
+        /// <summary>
+        /// flatStats are the stats that champions have at lvl 0
+        /// </summary>
+        internal StatHandler flatStats;
+        /// <summary>
+        /// This is the amount stats increase with champion lvl
+        /// </summary>
         internal StatHandler statPerLevel;
         
 
@@ -65,12 +71,28 @@ namespace Champions {
 
 
         //----------Getters&Setters---------------
+        /// <summary>
+        /// Gets the total stat of the champion. This WILL include items, runes and passives.
+        /// </summary>
+        /// <param name="statType"></param>
+        /// <returns></returns>
         public virtual double GetStat(StatType statType) {
-			return baseStats.Get(statType) + (statPerLevel.Get(statType) * level);
+            //Todo: add item, and rune stat increases
+			return flatStats.Get(statType) + (statPerLevel.Get(statType) * level);
 		}
 
-		public void SetBaseStat(StatType type, double value) {
-            baseStats.Set(type, value);
+        /// <summary>
+        /// Gets the base stats. Base stats are flatStats with the stat increases pr lvl. 
+        /// This method is primarily intended to make it easy to find bonus stats like bonus health or AD.
+        /// </summary>
+        /// <param name="statType"></param>
+        /// <returns></returns>
+        public double GetBaseStat(StatType statType) {
+			return flatStats.Get(statType) + (statPerLevel.Get(statType) * level);
+		}
+
+		public void SetFlatStat(StatType type, double value) {
+            flatStats.Set(type, value);
         }
 
 		public void SetStatPerLevel(StatType type, double value) {
@@ -155,7 +177,7 @@ namespace Champions {
         /// It should be overriden in every champion class, to specify the stats.
         /// </summary>
         protected virtual void SetBaseStats() {
-			baseStats = new StatHandler(new Dictionary<StatType, double>() {
+			flatStats = new StatHandler(new Dictionary<StatType, double>() {
 				{StatType.CriticalStrikeDmg, 1.75}
 			});
 			statPerLevel = new StatHandler(new Dictionary<StatType, double>() {

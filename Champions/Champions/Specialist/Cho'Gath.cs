@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace Champions.Champions.Specialist {
     internal class Cho_Gath : Champion {
         private int rStacks;
+		private int empoweredAttacks;
         
         //----------Constructors----------
         public Cho_Gath() : this(18, 0) { }
@@ -26,22 +27,101 @@ namespace Champions.Champions.Specialist {
 		}
 
         //--------------Abilities---------------
-        public override Damage BasicAttack() {
-            throw new NotImplementedException();
-        }
-        public override Damage CastQ() {
-            throw new NotImplementedException();
-        }
-        public override Damage CastW() {
-            throw new NotImplementedException();
+		//--basic attack--
+        public override Damage BasicAttack(Champion target) {
+			Damage dmg = new Damage();
+			//-----Calc dmg-----
+			//AD + (AD * critDmg * critChance)
+			dmg.AddDmg(DamageType.PhysicalDmg,
+				GetStat(StatType.AttackDamage) + (GetStat(StatType.AttackDamage) * GetStat(StatType.CriticalStrikeDmg) * GetStat(StatType.CriticalStrikeChance)));
+			//If e has been used
+			if (empoweredAttacks > 0) { 
+				//eRank * 20 + AP * 0.3 + target.health * (0.03 + (0.05 * rStacks))
+				dmg.AddDmg(DamageType.MagicDmg, 
+					eRank * 20 + GetStat(StatType.AbilityPower) * 0.3 + target.GetStat(StatType.Health) * (0.03 + 0.05 * rStacks));
+				//Uses one empowered basic attack
+				empoweredAttacks--;	
+			}
+			
+			
+			//-----Subtract dmg based on resistances------
+			dmg.CalcResistances(target);
+
+			return dmg;
+		}
+
+		public override Damage BasicAttack() {
+			return this.BasicAttack(new TargetDummy());
+		}
+
+		//--q--
+		public override Damage CastQ(Champion target) {
+
+			Damage dmg = new Damage();
+			//-----Calc dmg-------
+			if (qRank > 0) {
+				//15 + 65 * qRank + AP
+				dmg.AddDmg(DamageType.MagicDmg, 
+					15 + 65 * qRank + GetStat(StatType.AbilityPower));
+			}
+			//-----Subtract dmg based on resistances-------
+			dmg.CalcResistances(target);
+
+			return dmg;
+		}
+
+		public override Damage CastQ() {
+            return this.CastQ(new TargetDummy());
         }
 
-        public override Damage CastE() {
-            throw new NotImplementedException();
+		//--w--
+		public override Damage CastW(Champion target) {
+
+			Damage dmg = new Damage();
+			//-----Calc dmg-------
+			if (wRank > 0) {
+				//25 + 55 * wRank + AP * 0.7
+				dmg.AddDmg(DamageType.MagicDmg,
+					25 + 55 * wRank + GetStat(StatType.AbilityPower) * 0.7);
+			}
+			//-----Subtract dmg based on resistances-------
+			dmg.CalcResistances(target);
+
+			return dmg;
+		}
+
+		public override Damage CastW() {
+            return this.CastW(new TargetDummy());
         }
 
-        public override Damage CastR() {
-            throw new NotImplementedException();
+		//--e--
+		public override Damage CastE(Champion target) {
+			empoweredAttacks = 3;
+			return new Damage();
+        }
+		public override Damage CastE() {
+			return this.CastE(new TargetDummy());
+		}
+
+		//--r--
+		public override Damage CastR(Champion target) {
+			
+			Damage dmg = new Damage();
+			//-----Calc dmg-------
+			if (rRank > 0) {
+				double bonusHP = GetStat(StatType.Health) - GetBaseStat(StatType.Health);
+				//125 + 175 * rRank + AP * 0.5 + bonusHP * 0.1
+				dmg.AddDmg(DamageType.TrueDmg,
+					15 + 65 * qRank + GetStat(StatType.AbilityPower) + bonusHP * 0.1);
+			}
+			//-----Subtract dmg based on resistances-------
+			dmg.CalcResistances(target);
+
+			return dmg;
+		}
+
+		public override Damage CastR() {
+            return this.CastR(new TargetDummy());
         }
 
 		//------------Getters&Setters---------------
@@ -49,7 +129,7 @@ namespace Champions.Champions.Specialist {
 			switch (statType) {
 				case StatType.Health:
 					//rStacks calculation looks weird but (40 + 40 * rRank) is to follow the bonus hp pr rRank which is 80/120/160
-					return baseStats.Get(statType) + (statPerLevel.Get(statType) * level) + (rStacks * (40 + 40 * rRank));
+					return flatStats.Get(statType) + (statPerLevel.Get(statType) * level) + (rStacks * (40 + 40 * rRank));
 				default:
 					return base.GetStat(statType);
 			}
@@ -58,7 +138,7 @@ namespace Champions.Champions.Specialist {
 		//------------UtilityMethods----------------
 
 		protected override void SetBaseStats() {
-			baseStats = new StatHandler(new Dictionary<StatType, double>() {
+			flatStats = new StatHandler(new Dictionary<StatType, double>() {
 				{StatType.Health, 644},
 				{StatType.Mana, 270},
 				{StatType.AttackDamage, 69},

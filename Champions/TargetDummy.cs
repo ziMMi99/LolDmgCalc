@@ -12,7 +12,7 @@ namespace Champions {
 		public TargetDummy() : this(5000, 0, 0) { }
 
 		public TargetDummy(double health, double armor, double magicResistance) {
-			baseStats = new StatHandler(new Dictionary<StatType, double>() {
+			flatStats = new StatHandler(new Dictionary<StatType, double>() {
 				{StatType.Health, health},
 				{StatType.Armor, armor},
 				{StatType.MagicResistance, magicResistance},

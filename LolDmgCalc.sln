@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Champions", "Champions\Cham
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stats", "Stats\Stats.csproj", "{E092D7B5-E1BB-4341-A174-B54158492DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passives", "Passives\Passives.csproj", "{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passives", "Passives\Passives.csproj", "{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

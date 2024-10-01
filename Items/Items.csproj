@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="ItemExplorer\BasicItems\" />
     <Folder Include="ItemExplorer\EpicItems\" />
-    <Folder Include="ItemExplorer\LegendaryItems\" />
   </ItemGroup>
 
   <ItemGroup>

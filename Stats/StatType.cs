@@ -41,6 +41,7 @@ namespace Stats {
 		CooldownReduction,
 		AttackRange,
 		MovementSpeed,
+		MovementSpeedPercentage,
 		GoldGeneration,
 		//resources
 		Mana,

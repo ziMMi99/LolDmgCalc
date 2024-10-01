@@ -45,7 +45,7 @@ namespace Champions.Champions.Specialist {
 			
 			
 			//-----Subtract dmg based on resistances------
-			dmg.CalcResistances(target);
+			dmg.CalcResistances(this, target);
 
 			return dmg;
 		}
@@ -65,7 +65,7 @@ namespace Champions.Champions.Specialist {
 					15 + 65 * qRank + GetStat(StatType.AbilityPower));
 			}
 			//-----Subtract dmg based on resistances-------
-			dmg.CalcResistances(target);
+			dmg.CalcResistances(this, target);
 
 			return dmg;
 		}
@@ -85,7 +85,7 @@ namespace Champions.Champions.Specialist {
 					25 + 55 * wRank + GetStat(StatType.AbilityPower) * 0.7);
 			}
 			//-----Subtract dmg based on resistances-------
-			dmg.CalcResistances(target);
+			dmg.CalcResistances(this, target);
 
 			return dmg;
 		}
@@ -115,7 +115,7 @@ namespace Champions.Champions.Specialist {
 					15 + 65 * qRank + GetStat(StatType.AbilityPower) + bonusHP * 0.1);
 			}
 			//-----Subtract dmg based on resistances-------
-			dmg.CalcResistances(target);
+			dmg.CalcResistances(this, target);
 
 			return dmg;
 		}

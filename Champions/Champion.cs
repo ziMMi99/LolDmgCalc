@@ -32,7 +32,7 @@ namespace Champions {
             dmg.SetDmg(DamageType.PhysicalDmg, 
                 GetStat(StatType.AttackDamage) + (GetStat(StatType.AttackDamage) * GetStat(StatType.CriticalStrikeDmg) * GetStat(StatType.CriticalStrikeChance)));
             //-----Subtract dmg based on resistances------
-            dmg.CalcResistances(target);
+            dmg.CalcResistances(this, target);
 
             return dmg;
         }

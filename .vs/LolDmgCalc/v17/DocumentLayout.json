@@ -1,28 +1,47 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\",
+  "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\champions\\specialist\\cho\u0027gath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\champions\\specialist\\cho\u0027gath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\legendaryitems\\mage\\stormsurge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\legendaryitems\\mage\\stormsurge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\legendaryitems\\mage\\zhonayshourglass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\legendaryitems\\mage\\zhonayshourglass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\targetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\targetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\legendaryitems\\mage\\roa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\legendaryitems\\mage\\roa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\stats\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\legendaryitems\\mage\\rabadonsdeathcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\legendaryitems\\mage\\rabadonsdeathcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\legendaryitems\\mage\\hextechrocketbelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\legendaryitems\\mage\\hextechrocketbelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\stats\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|solutionrelative:stats\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\stats\\stathandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E092D7B5-E1BB-4341-A174-B54158492DCB}|Stats\\Stats.csproj|solutionrelative:stats\\stathandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,15 +55,34 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\loldmgcalc\\src\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\boots\\sorcerersshoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\boots\\sorcerersshoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\loldmgcalc\\src\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\src\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\starteritems\\doransshield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\starteritems\\doransshield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52000068-AF6E-4EC2-8A39-9B4D487BA9D0}|LolDmgCalc\\LolDmgCalc.csproj|solutionrelative:loldmgcalc\\src\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\starteritems\\doransblade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\starteritems\\doransblade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\items\\itemexplorer\\starteritems\\doransring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\starteritems\\doransring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\simon\\onedrive\\skrivebord\\loldmgcalc\\champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,8 +91,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< Updated upstream
           "DockedWidth": 176,
           "SelectedChildIndex": 3,
+=======
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,6 +105,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "TargetDummy.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\TargetDummy.cs",
@@ -97,10 +141,22 @@
               "ViewState": "AgIAAHgAAAAAAAAAAAAiwBAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T08:24:53.593Z",
+=======
+              "DocumentIndex": 5,
+              "Title": "StatType.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\StatType.cs",
+              "RelativeDocumentMoniker": "Stats\\StatType.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\StatType.cs",
+              "RelativeToolTip": "Stats\\StatType.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADgvyMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:55:45.824Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Champion.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champion.cs",
@@ -147,32 +203,57 @@
               "ViewState": "AgIAABgAAAAAAAAAAAA1wGAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T11:45:59.202Z"
+=======
+              "DocumentIndex": 0,
+              "Title": "Stormsurge.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\Stormsurge.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\LegendaryItems\\Mage\\Stormsurge.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\Stormsurge.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\LegendaryItems\\Mage\\Stormsurge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:53:15.141Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Champions.csproj",
-              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions.csproj",
-              "RelativeDocumentMoniker": "Champions\\Champions.csproj",
-              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions.csproj",
-              "RelativeToolTip": "Champions\\Champions.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-30T09:53:02.721Z"
+              "Title": "SorcerersShoes.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\Boots\\SorcerersShoes.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\Boots\\SorcerersShoes.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\Boots\\SorcerersShoes.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\Boots\\SorcerersShoes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T08:31:29.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs",
               "RelativeDocumentMoniker": "LolDmgCalc\\src\\frontend\\Form1.cs",
               "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs [Design]",
+=======
+              "DocumentIndex": 2,
+              "Title": "ROA.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\ROA.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\LegendaryItems\\Mage\\ROA.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\ROA.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\LegendaryItems\\Mage\\ROA.cs",
+              "ViewState": "AQIAAAIAAACA1MzMzMwHwBIAAAAVAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T10:53:24.582Z"
+              "WhenOpened": "2024-10-01T08:09:33.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs",
@@ -180,11 +261,48 @@
               "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\src\\frontend\\Form1.cs",
               "RelativeToolTip": "LolDmgCalc\\src\\frontend\\Form1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+=======
+              "DocumentIndex": 4,
+              "Title": "HextechRocketbelt.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\HextechRocketbelt.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\LegendaryItems\\Mage\\HextechRocketbelt.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\HextechRocketbelt.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\LegendaryItems\\Mage\\HextechRocketbelt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAnAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T10:57:24.125Z"
+              "WhenOpened": "2024-10-01T07:56:41.646Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZhonaysHourglass.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\ZhonaysHourglass.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\LegendaryItems\\Mage\\ZhonaysHourglass.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\ZhonaysHourglass.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\LegendaryItems\\Mage\\ZhonaysHourglass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:53:03.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RabadonsDeathcap.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:36:27.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\src\\backend\\Program.cs",
@@ -192,8 +310,83 @@
               "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\src\\backend\\Program.cs",
               "RelativeToolTip": "LolDmgCalc\\src\\backend\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+=======
+              "DocumentIndex": 10,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T10:48:01.237Z"
+              "WhenOpened": "2024-10-01T07:33:39.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoransShield.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\DoransShield.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\StarterItems\\DoransShield.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\DoransShield.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\StarterItems\\DoransShield.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:33:05.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoransRing.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\DoransRing.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\StarterItems\\DoransRing.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\DoransRing.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\StarterItems\\DoransRing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:32:41.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "LolDmgCalc\\src\\backend\\Program.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\src\\backend\\Program.cs",
+              "RelativeToolTip": "LolDmgCalc\\src\\backend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:29:28.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoransBlade.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\DoransBlade.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\StarterItems\\DoransBlade.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\ItemExplorer\\StarterItems\\DoransBlade.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\StarterItems\\DoransBlade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:32:40.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Champion.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\Champion.cs",
+              "RelativeDocumentMoniker": "Champions\\Champion.cs",
+              "ToolTip": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\Champion.cs",
+              "RelativeToolTip": "Champions\\Champion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:29:43.164Z",
+              "EditorCaption": ""
             }
           ]
         }

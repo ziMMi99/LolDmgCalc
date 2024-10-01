@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Stats;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,19 @@ namespace Champions {
 
         public double GetTotalPostmitigatedDmg(Champion target) {
             throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Removes damage based off the targets resistances.
+        /// </summary>
+        /// <param name="target"></param>
+        public void CalcResistances(Champion target) {
+            /*                               raw dmg
+             *  post mitigated dmg =  ----------------------
+             *                          1 + resistance/100
+             */
+            physicalDamage = (physicalDamage) / (1 + target.GetStat(StatType.Armor)/100);
+            magicDmg = (magicDmg) / (1 + target.GetStat(StatType.MagicResistance)/100);
         }
 
         //--------------Getters&Setters---------------

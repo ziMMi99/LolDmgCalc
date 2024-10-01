@@ -26,7 +26,7 @@ namespace Champions.Champions.Specialist {
 		}
 
         //--------------Abilities---------------
-        public override Damage AutoAttack() {
+        public override Damage BasicAttack() {
             throw new NotImplementedException();
         }
         public override Damage CastQ() {

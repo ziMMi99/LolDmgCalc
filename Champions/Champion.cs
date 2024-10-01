@@ -11,25 +11,22 @@ namespace Champions {
         internal int qRank, wRank, eRank, rRank;
         internal StatHandler baseStats;
         internal StatHandler statPerLevel;
+        
 
 
         //-----------Methods-------------
 
-        public virtual Damage AutoAttack() {
-            throw new NotImplementedException();
+        public virtual Damage BasicAttack() {
+            return BasicAttack(new TargetDummy());
         }
-        public virtual Damage AutoAttack(Champion target) {
+        public virtual Damage BasicAttack(Champion target) {
             Damage dmg = new Damage();
             //-----Calc dmg-----
-            //AD + (AD * critDmg * critchance)
-            dmg.SetDmg(DamageType.PhysicalDmg, GetStat(StatType.AttackDamage) + (GetStat(StatType.AttackDamage) * GetStat(StatType.CriticalStrikeDmg) * GetStat(StatType.CriticalStrikeChance)));
-			//-----Subtract dmg based on resistances------
-			/*                               raw dmg
-             *  post mitigated dmg =  ----------------------
-             *                          1 + resistance/100
-             */
-			dmg.SetDmg(DamageType.PhysicalDmg, dmg.GetDmg(DamageType.PhysicalDmg)/(1 + target.GetStat(StatType.Armor)/100));
-
+            //AD + (AD * critDmg * critChance)
+            dmg.SetDmg(DamageType.PhysicalDmg, 
+                GetStat(StatType.AttackDamage) + (GetStat(StatType.AttackDamage) * GetStat(StatType.CriticalStrikeDmg) * GetStat(StatType.CriticalStrikeChance)));
+            //-----Subtract dmg based on resistances------
+            dmg.CalcResistances(target);
 
             return dmg;
         }
@@ -154,7 +151,7 @@ namespace Champions {
 		}
 
         /// <summary>
-        /// Sets the baseStats and statsPerLevel statHandlers. Default sets everything to 0.
+        /// Sets the baseStats and statsPerLevel statHandlers. Default sets most things to 0.
         /// It should be overriden in every champion class, to specify the stats.
         /// </summary>
         protected virtual void SetBaseStats() {

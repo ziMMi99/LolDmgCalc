@@ -7,6 +7,9 @@ using Stats;
 
 namespace Items.ItemExplorer.LegendaryItems.Mage
 {
+    /// <summary>
+    /// Rabadons's Deathcap
+    /// </summary>
     internal class RabadonsDeathcap : Item
     {
         private readonly double abilityPower = 130;

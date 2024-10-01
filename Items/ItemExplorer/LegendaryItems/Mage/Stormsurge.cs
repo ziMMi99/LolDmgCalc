@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using Stats;
 
 namespace Items.ItemExplorer.LegendaryItems.Mage {
+
+  /// <summary>
+  /// Stormsurge
+  /// </summary>
   internal class Stormsurge : Item {
     private readonly double abilityPower = 95;
     private readonly double magicPen = 15;

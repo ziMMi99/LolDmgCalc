@@ -7,12 +7,15 @@ using Stats;
 
 namespace Items.ItemExplorer.LegendaryItems.Mage
 {
-    internal class ZhonaysHourglass : Item
+    /// <summary>
+    /// Zhonya's Hourglass
+    /// </summary>
+    internal class ZhonyasHourglass : Item
     {
         private readonly double abilityPower = 105;
         private readonly double armor = 50;
 
-        public ZhonaysHourglass()
+        public ZhonyasHourglass()
         {
             statHandler.Set(StatType.AbilityPower, abilityPower);
             statHandler.Set(StatType.Armor, armor);

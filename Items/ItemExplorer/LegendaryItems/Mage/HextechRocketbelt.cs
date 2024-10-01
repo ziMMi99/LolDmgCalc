@@ -7,6 +7,9 @@ using Stats;
 
 namespace Items.ItemExplorer.LegendaryItems.Mage
 {
+    /// <summary>
+    /// Hexttech Rockectbelt
+    /// </summary>
     internal class HextechRocketbelt : Item
     {
         private readonly double abilityPower = 60;

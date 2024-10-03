@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Passives\\Passives.csproj": {}
+    "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\Passives.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Passives\\Passives.csproj": {
+    "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\Passives.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Passives\\Passives.csproj",
+        "projectUniqueName": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\Passives.csproj",
         "projectName": "Passives",
-        "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Passives\\Passives.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Passives\\obj\\",
+        "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\Passives.csproj",
+        "packagesPath": "C:\\Users\\CraZi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CraZi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

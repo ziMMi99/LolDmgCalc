@@ -1,7 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\passives\\itempassives\\legendaryitems\\mage\\magicalopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|solutionrelative:passives\\itempassives\\legendaryitems\\mage\\magicalopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\passives\\passive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|solutionrelative:passives\\passive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\items\\itemexplorer\\legendaryitems\\mage\\rabadonsdeathcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\itemexplorer\\legendaryitems\\mage\\rabadonsdeathcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{375DE755-4CA6-4763-9017-D0290BE012C1}|Items\\Items.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\passives\\passivetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C9BC7F6-0967-4C00-97A5-3E98DDA971D7}|Passives\\Passives.csproj|solutionrelative:passives\\passivetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\champion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\targetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\targetdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|c:\\users\\crazi\\onedrive\\dokumenter\\github\\loldmgcalc\\champions\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D443A01-F327-4790-8BBC-203EEA130019}|Champions\\Champions.csproj|solutionrelative:champions\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MagicalOpus.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\ItemPassives\\LegendaryItems\\Mage\\MagicalOpus.cs",
+              "RelativeDocumentMoniker": "Passives\\ItemPassives\\LegendaryItems\\Mage\\MagicalOpus.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\ItemPassives\\LegendaryItems\\Mage\\MagicalOpus.cs",
+              "RelativeToolTip": "Passives\\ItemPassives\\LegendaryItems\\Mage\\MagicalOpus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:22:54.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RabadonsDeathcap.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "RelativeDocumentMoniker": "Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "RelativeToolTip": "Items\\ItemExplorer\\LegendaryItems\\Mage\\RabadonsDeathcap.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:18:05.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:17:19.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Passive.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\Passive.cs",
+              "RelativeDocumentMoniker": "Passives\\Passive.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\Passive.cs",
+              "RelativeToolTip": "Passives\\Passive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:14:36.654Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PassiveType.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\PassiveType.cs",
+              "RelativeDocumentMoniker": "Passives\\PassiveType.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Passives\\PassiveType.cs",
+              "RelativeToolTip": "Passives\\PassiveType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:14:40.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DamageType.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\DamageType.cs",
+              "RelativeDocumentMoniker": "Champions\\DamageType.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\DamageType.cs",
+              "RelativeToolTip": "Champions\\DamageType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:13:30.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TargetDummy.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\TargetDummy.cs",
+              "RelativeDocumentMoniker": "Champions\\TargetDummy.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\TargetDummy.cs",
+              "RelativeToolTip": "Champions\\TargetDummy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:13:29.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Damage.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Damage.cs",
+              "RelativeDocumentMoniker": "Champions\\Damage.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Damage.cs",
+              "RelativeToolTip": "Champions\\Damage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:13:27.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Champion.cs",
+              "DocumentMoniker": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champion.cs",
+              "RelativeDocumentMoniker": "Champions\\Champion.cs",
+              "ToolTip": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champion.cs",
+              "RelativeToolTip": "Champions\\Champion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:13:14.625Z",
+              "EditorCaption": ""
             }
           ]
         }

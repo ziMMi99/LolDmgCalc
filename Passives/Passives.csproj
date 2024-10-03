@@ -20,7 +20,7 @@
     <Folder Include="ChampionPassives\Specialist\" />
     <Folder Include="ChampionPassives\Tank\Vanguard\" />
     <Folder Include="ChampionPassives\Tank\Warden\" />
-    <Folder Include="ItemPassives\" />
+    <Folder Include="ItemPassives\EpicItems\" />
   </ItemGroup>
 
 </Project>

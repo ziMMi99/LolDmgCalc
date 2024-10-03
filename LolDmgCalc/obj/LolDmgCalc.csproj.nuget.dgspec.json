@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj": {}
+    "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\Champions.csproj": {
+    "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\Champions.csproj",
+        "projectUniqueName": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions.csproj",
         "projectName": "Champions",
-        "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\Champions.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\obj\\",
+        "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions.csproj",
+        "packagesPath": "C:\\Users\\CraZi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CraZi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj": {
-                "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj"
+              "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj": {
+                "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj"
               }
             }
           }
@@ -64,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Items.csproj": {
+    "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\Items.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Items.csproj",
+        "projectUniqueName": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\Items.csproj",
         "projectName": "Items",
-        "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Items.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\obj\\",
+        "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\Items.csproj",
+        "packagesPath": "C:\\Users\\CraZi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CraZi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,14 +87,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj": {
-                "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj"
+              "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj": {
+                "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj"
               }
             }
           }
@@ -128,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj": {
+    "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
+        "projectUniqueName": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
         "projectName": "LolDmgCalc",
-        "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\LolDmgCalc\\obj\\",
+        "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\LolDmgCalc.csproj",
+        "packagesPath": "C:\\Users\\CraZi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\LolDmgCalc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CraZi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,20 +152,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\Champions.csproj": {
-                "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Champions\\Champions.csproj"
+              "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions.csproj": {
+                "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Champions\\Champions.csproj"
               },
-              "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Items.csproj": {
-                "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Items\\Items.csproj"
+              "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\Items.csproj": {
+                "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Items\\Items.csproj"
               },
-              "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj": {
-                "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj"
+              "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj": {
+                "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj"
               }
             }
           }
@@ -201,21 +204,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj": {
+    "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj",
+        "projectUniqueName": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj",
         "projectName": "Stats",
-        "projectPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\Stats.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\OneDrive\\Skrivebord\\LolDmgCalc\\Stats\\obj\\",
+        "projectPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\Stats.csproj",
+        "packagesPath": "C:\\Users\\CraZi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CraZi\\OneDrive\\Dokumenter\\GitHub\\LolDmgCalc\\Stats\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CraZi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,6 +226,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -261,7 +265,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
